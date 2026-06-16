@@ -15,6 +15,9 @@ A CPU-based ray tracer built from scratch using C++ and SFML 3.0. Features real-
 - **Animated Rendering** — Metallic sphere bounces in real-time
 - **Gradient Sky** — Blue sky background
 
+## screenshot
+https://raw.githubusercontent.com/snehal-thombare08/ray-tracer-cpp/main/Screenshot%202026-06-16%20221043.png
+
 ## 🛠️ Built With
 
 - **C++17**
