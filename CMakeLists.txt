@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.16)
+project(RayTracer)
+set(CMAKE_CXX_STANDARD 17)
+find_package(SFML COMPONENTS Graphics Window System CONFIG REQUIRED)
+add_executable(RayTracer src/main.cpp)
+target_link_libraries(RayTracer PRIVATE SFML::Graphics SFML::Window SFML::System)
